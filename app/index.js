@@ -10,14 +10,12 @@ var app = express();
 var httpServer = http.Server(app);
 
 
+app.use(express.static(__dirname + '/../public'));
 
-app.use(express.static(__dirname + '/.../public'));
-
-
+var router = require('./controller.js');
+app.use('/', router);
 
 var port = 8080;
-
-
 httpServer.listen(port, function () {
   console.log("server listening on port", port);
 });
