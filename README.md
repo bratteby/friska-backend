@@ -6,4 +6,4 @@ This repo serves as codebase for the demo to Friska admin-system
 
 ## Getting started
 1. Install node dependencies: `npm install`
-2. Start server with: 'npm start'
+2. Start server with: `npm start`
