@@ -1,3 +1,5 @@
+[deprecated]
+
 # friska-backend
 This repo serves as codebase for the demo to Friska admin-system
 
